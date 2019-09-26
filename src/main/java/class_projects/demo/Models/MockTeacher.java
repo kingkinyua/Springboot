@@ -1,6 +1,6 @@
 package class_projects.demo.Models;
 
-import javax.persistence.Id;
+
 public class MockTeacher {
     private Long id;
 

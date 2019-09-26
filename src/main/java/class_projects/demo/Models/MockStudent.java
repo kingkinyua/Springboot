@@ -2,19 +2,12 @@ package class_projects.demo.Models;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name = "mock_students")
 public class MockStudent {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
 
-    @Column(name="id")
     private Long id;
 
-    @Column(name="studentNumber")
     private String studentNumber;
 
-    @Column(name="firstName")
     private String firstName;
 
 
